@@ -1,0 +1,22 @@
+{
+  "name": "New container tab",
+  "version": "0.1.0",
+  "description": "Press Ctrl+Shift+D to create a new container tab (Cmd+Shift+D on Mac).",
+  "author": "Jonathan Kingston",
+  "icons": {
+    "128": "img/icon.svg"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "cookies"
+  ],
+  "commands": {
+    "new-container-tab": {
+      "suggested_key": { "default": "Ctrl+Shift+D" },
+      "description": "Create a new container tab"
+    }
+  },
+  "manifest_version": 2
+}
