@@ -1,6 +1,6 @@
 {
   "name": "New container tab",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Press Alt+C to create a new container tab.",
   "author": "Jonathan Kingston",
   "icons": {
